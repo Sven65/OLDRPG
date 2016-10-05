@@ -1,0 +1,1 @@
+node ./main.js 0 --max-old-space-size=512 --harmony & node ./main.js 1 --max-old-space-size=512 --harmony & node ./main.js 2 --max-old-space-size=512 --harmony & node ./main.js 3 --max-old-space-size=512 --harmony
