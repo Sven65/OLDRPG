@@ -38,7 +38,7 @@ var bot = new Discord.Client({
 	maxCachedMessages: 250,
 	bot: true,
 	userAgent: {
-		url: 'https://discorddungeons.me',
+		url: '',
 		version: require('./package.json').version
 	}
 });
