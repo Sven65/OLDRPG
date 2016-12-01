@@ -1,15 +1,3 @@
-/*
-Copyright 2015 Mackan
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-*/
 module.exports = {
     makePass: function(a, b) {
         for (pos = "", pass = "", b.indexOf("caps") > -1 && (pos += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"), b.indexOf("symbols") > -1 && (pos += "`!'\"?$%^&*()_-+={[}]:;@~#|\\<,>./"), b.indexOf("letter") > -1 && (pos += "abcdefghijklmnopqrstuvwxyz"), b.indexOf("num") > -1 && (pos += "1234567890"), x = 0; a > x;) num = Math.floor(Math.random() * (pos.length - 1 - 0 + 1)) + 0, pass += pos[num], x++;
